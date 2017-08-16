@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_bbq"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+  <LinearLayout
+    android:id="@+id/raw_meat_layout"
+    style="@style/StreamLayout" />
+
+  <LinearLayout
+    android:id="@+id/cooked_meat_layout"
+    style="@style/StreamLayout" />
+
+  <LinearLayout
+    android:id="@+id/bun_layout"
+    style="@style/StreamLayout" />
+
+  <LinearLayout
+    android:id="@+id/lettuce_layout"
+    style="@style/StreamLayout" />
+
+  <LinearLayout
+    android:id="@+id/burger_layout"
+    style="@style/StreamLayout" />
+</LinearLayout>
